@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img  src="imagens/Logo.png" alt="Logo">
+        </div>
+        <div class="titulo__principal">
+            <h1>Decodificador</h1>
+        </div>
+    </div>
+    <div>
+        <textarea type="text" class="campo__texto" maxlength="255" placeholder="Digite seu texto..." onfocus="mostrarMensagens()"></textarea> 
+    </div>
+    <div class="campo__crip">
+        <div class="texto__crip"> </div>
+        <div class="mensagem__inicial">
+            <p> Nenhuma mensagem</br> encontrada</p>
+        </div>
+        <div class="submensagem__inicial"> 
+            <p>Digite um texto que você deseja criptografar</br> ou descriptografar.</p>
+        </div>
+        
+    </div>
+
+    <div class="container2">
+        <button class="botao__crip" onclick="criptografar()">Criptografar</button>
+        <button class="botao__descrip" onclick="descriptografar()">Descriptografar</button>
+        <button class="botao__limpar" onclick="limparCampo()">Limpar</button>
+        <button class="botao__copiar" display="none" onclick="copiarTexto()">Copiar</button>
+    </div> 
+
+
+    <script src="java.js"></script>
+
+
+    <footer class="rodape">
+        <img src="imagens/git.logo.png">
+        <p>juantfarias</p>    
+    </footer>
+</body>
+
+</html>
