@@ -90,6 +90,3 @@ function mostrarBotaoCopiar() {
         botaoCopiar.style.display = "none";
     }
 }
-
-
-
