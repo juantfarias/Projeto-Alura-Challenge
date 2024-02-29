@@ -76,9 +76,9 @@ function limparCampo() {
     var submensagemInicial = document.querySelector(".submensagem__inicial");
 
     
-    textoCrip.textContent = ""; // Limpa o conteúdo do campo de criptografia
-    campoTexto.value = ""; // Limpa o conteúdo do campo de texto
-    mostrarMensagens(); // Reexibe as mensagens inicial e submensagem
+    textoCrip.textContent = "";
+    campoTexto.value = "";
+    mostrarMensagens(); 
 }
 
 function mostrarBotaoCopiar() {
@@ -90,20 +90,6 @@ function mostrarBotaoCopiar() {
         botaoCopiar.style.display = "none";
     }
 }
-// function ajustarPosicaoBotoes() {
-//     var campoCrip = document.querySelector(".campo__crip");
-//     var botaoCopiar = document.querySelector(".botao__copiar");
-//     var botaoLimpar = document.querySelector(".botao__limpar");
 
-//     var alturaTexto = campoCrip.offsetHeight; // Altura do texto criptografado/descriptografado
-//     var distanciaTopo = campoCrip.getBoundingClientRect().top; // Distância do topo da página até o campo
-
-//     // Ajuste a posição vertical dos botões
-//     botaoCopiar.style.top = (distanciaTopo + alturaTexto + 20) + "px"; // Adicionando um espaço de 20 pixels abaixo do texto
-//     botaoLimpar.style.top = (distanciaTopo + alturaTexto + 20) + "px"; // Adicionando um espaço de 20 pixels abaixo do texto
-// }
-
-// // Adicione esta função às suas funções criptografar() e descriptografar() após ajustar o texto
-// ajustarPosicaoBotoes();
 
 
